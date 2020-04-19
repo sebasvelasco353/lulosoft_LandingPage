@@ -76,23 +76,35 @@ body {
     min-height: 100vh;
     padding: 20vh 10vw;
 }
-#lulosoft .item div{
+.item div{
     text-align: center;
 }
-#lulosoft .items{
+.items{
     padding: 20vh 0;
 }
-#lulosoft .backgroundText{
+.backgroundText{
     position:absolute;
     z-index:0;
-    font-size: 15rem;
+    font-size: 10rem;
     top: 130vh;
+    font-weight: 900;
+    color: gray;
+}
+.item{
+    margin: auto;
+}
+.item img{
+    width: 100px;
+    margin: auto;
+}
+
+.item .itemTitle{
+    font-size: 1.4rem;
 }
 /* Why work with us */
 #why{
     min-height: 250vh;
     background-color: rgb(239, 239, 239);
-
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
