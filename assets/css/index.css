@@ -125,7 +125,7 @@ body {
     text-align: center;
 }
 .learnButton{
-    padding: 1rem;
+    padding: 1rem 2rem;
     background-color: orange;
     text-transform: uppercase;
     font-weight: bold;
@@ -133,7 +133,7 @@ body {
     text-decoration: none;
 }
 .learnButton:hover{
-    padding: 1rem;
+    padding: 1rem 2rem;
     background-color: orange;
     text-transform: uppercase;
     font-weight: bold;
@@ -158,6 +158,27 @@ body {
     background-attachment: scroll;
     background-image: url('../images/Home/im_nearshore_communication.png');
     background-size: contain;
+    color: white;
+
+    padding: 30vh 10vw;
+}
+.nearShoreImages img{
+    width: 30vw;
+}
+.nearShoreImages h1{
+    font-weight: 900;
+}
+.nearShoreImages a{
+    padding: 1rem 2rem;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(125, 162, 23);
+    text-decoration: none;
+}
+.nearShoreImages a img{
+    width: 20px;
+    margin-left: 5px;
 }
 /* Footer */
 footer{
@@ -186,5 +207,11 @@ footer{
         background-attachment: scroll;
         background-image: url('../images/Home/im_nearshore_communication_cropped.png');
         background-size: contain;
+        color: white;
+
+        padding: 15vh 10vw;
+    }
+    .nearShoreImages img {
+        width: 65vw;
     }
 }
