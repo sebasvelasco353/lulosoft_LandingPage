@@ -105,12 +105,12 @@ body {
 }
 /* Why work with us */
 #why{
-    min-height: 250vh;
+    /* min-height: 250vh; */
     background-color: rgb(239, 239, 239);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-image: url('../images/Home/im_nearshore_communication.png');
+    /* background-image: url('../images/Home/im_nearshore_communication.png'); */
 }
 #why .container{
     padding: 10vh 2rem;
@@ -150,6 +150,15 @@ body {
     text-decoration: none;
     font-size: .9rem;
 }
+.nearShoreImages{
+    height: 100vh;
+    background-color: rgb(239, 239, 239);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url('../images/Home/im_nearshore_communication.png');
+    background-size: contain;
+}
 /* Footer */
 footer{
     background-color: rgb(32, 32, 37);
@@ -169,14 +178,13 @@ footer{
         font-size: 5rem;
         top: 160vh;
     }
-    #why{
-        min-height: 250vh;
+    .nearShoreImages{
+        height: 100vh;
         background-color: rgb(239, 239, 239);
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: scroll;
-        background-image: url('../images/Home/im_nearshore_communication.png');
+        background-image: url('../images/Home/im_nearshore_communication_cropped.png');
         background-size: contain;
-        height: 400vh;
     }
 }
