@@ -31,6 +31,9 @@ body {
     font-size: 2rem;
     font-weight: bold;
 }
+.black{
+    color: black;
+}
 .title p {
     margin: 0;
 }
@@ -53,16 +56,25 @@ body {
     background-color: #212529 !important;
     transition: background-color 200ms linear;
 }
+.logo{
+    width: 100px;
+    margin: 2rem;
+}
 /* navbar */
 .navbar-brand{
  width: 5vw;
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navbar-light .navbar-nav .nav-link{
     color: #FFFFFF;
 }
 /* Master */
 .masthead{
-    background-image: url("../images/home/mastheadImage.jpg");
+    background-image: url("../images/Home/mastheadImage.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -110,6 +122,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    text-align: center;
     /* background-image: url('../images/Home/im_nearshore_communication.png'); */
 }
 #why .container{
@@ -180,8 +193,24 @@ body {
     width: 20px;
     margin-left: 5px;
 }
+.softwareSolutions .boldText{
+    font-size: 1.5rem;
+}
+#tech{
+    padding: 20vh 0;
+    min-height: 50vh;
+    background-color: rgb(243, 246, 246);
+}
+#tech .col-sm{
+    margin: 0 2vw;
+}
+#clients{
+    padding: 20vh 0;
+    min-height: 50vh;
+}
 /* Footer */
 footer{
+    text-align: center;
     background-color: rgb(32, 32, 37);
     color: rgb(150, 150, 150);
     padding: 5vh 0vw;
@@ -200,7 +229,7 @@ footer{
         top: 160vh;
     }
     .nearShoreImages{
-        height: 100vh;
+        height: 130vh;
         background-color: rgb(163, 212, 91);
         background-position: center;
         background-repeat: no-repeat;
