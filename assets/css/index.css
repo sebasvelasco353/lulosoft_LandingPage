@@ -228,6 +228,9 @@ footer{
     color: rgb(150, 150, 150);
     padding: 5vh 0vw;
 }
+footer div{
+    /* margin: 2vh 0; */
+}
 
 /* small screens */
 @media only screen and (max-width: 600px){
