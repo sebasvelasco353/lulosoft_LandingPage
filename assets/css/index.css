@@ -1,3 +1,16 @@
+@font-face {
+    font-family: "geomanist";
+    src: url("../Fonts/Geomanist/Geomanist-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "geomanist";
+    src: url("../Fonts/Geomanist/Geomanist-Bold.ttf") format("truetype");
+    font-weight: 900;
+}
+
 *,
 *::before,
 *::after {
@@ -5,7 +18,7 @@
 }
 
 html {
-    font-family: sans-serif;
+    font-family: geomanist;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -14,7 +27,7 @@ html {
 
 body {
     margin: 0;
-    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: geomanist, "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -100,7 +113,7 @@ body {
     font-size: 10rem;
     top: 130vh;
     font-weight: 900;
-    color: gray;
+    color: rgba(0, 0, 0, 0.3);
 }
 .item{
     margin: auto;
