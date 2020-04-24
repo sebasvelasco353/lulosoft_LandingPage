@@ -93,13 +93,13 @@ body {
     background-attachment: scroll;
     background-size: cover;
     height: 100vh;
-    padding: 20vh 10vw;
+    padding: 20vh 15vw;
 }
 /* we are lulosoft */
 #lulosoft{
     background-color: white;
     min-height: 100vh;
-    padding: 20vh 10vw;
+    padding: 20vh 15vw;
 }
 .item div{
     text-align: center;
@@ -227,9 +227,6 @@ footer{
     background-color: rgb(32, 32, 37);
     color: rgb(150, 150, 150);
     padding: 5vh 0vw;
-}
-footer div{
-    /* margin: 2vh 0; */
 }
 
 /* small screens */
