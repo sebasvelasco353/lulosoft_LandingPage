@@ -116,9 +116,6 @@ body {
     color: rgba(0, 0, 0, 0.2);
 }
 .underline{
-    /* text-decoration:underline;
-    text-decoration-color: yellowgreen;
-    text-decoration-thickness: 3px; */
     border-bottom: 2px solid yellowgreen;
     display: inline-block;
     line-height: 2;
