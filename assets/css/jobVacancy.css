@@ -39,6 +39,16 @@ body {
 [tabindex="-1"]:focus:not(:focus-visible) {
     outline: 0 !important;
 }
+a{
+    color: orange;
+}
+a:hover{
+    color: orange;
+}
+
+a:focus{
+    color: orange;
+}
 .title{
     color: white;
     font-size: 2rem;
@@ -93,7 +103,7 @@ body {
     padding: 9vh 3vw;
 }
 .smallRectangle{
-    background-color: gray;
+    background-color: rgb(248, 248, 248);
     padding: 50px;
 }
 .buttonMargin{
@@ -131,6 +141,18 @@ body {
 .black:focus{
     color: black;
 }
+#jobVacancy ul {
+    list-style: none;
+  }
+  
+#jobVacancy ul li::before {
+    content: "\2022"; 
+    color: orange; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+  }
 /* Footer */
 footer{
     text-align: center;
