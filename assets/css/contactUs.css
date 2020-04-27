@@ -1,0 +1,292 @@
+@font-face {
+    font-family: "geomanist";
+    src: url("../Fonts/Geomanist/Geomanist-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "geomanist";
+    src: url("../Fonts/Geomanist/Geomanist-Bold.ttf") format("truetype");
+    font-weight: 900;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: geomanist;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+body {
+    margin: 0;
+    font-family: geomanist, "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+[tabindex="-1"]:focus:not(:focus-visible) {
+    outline: 0 !important;
+}
+a{
+    color: orange;
+}
+a:hover{
+    color: orange;
+}
+
+a:focus{
+    color: orange;
+}
+.title{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.black{
+    color: black;
+}
+.title p {
+    margin: 0;
+}
+.orange{
+    color: orange;
+}
+.green{
+    color: yellowgreen;
+}
+.white{
+    color: #FFFFFF;
+}
+.nav-links{
+ margin: auto;
+}
+.margin{
+ margin: auto;
+}
+.boldText{
+    font-weight: bold;
+}
+.scrolled {
+    background-color: #212529 !important;
+    transition: background-color 200ms linear;
+}
+.logo{
+    width: 100px;
+    margin: 2rem;
+}
+/* navbar */
+.navbar-brand{
+ width: 5vw;
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #FFFFFF;
+}
+.smallRectangle{
+    background-color: rgb(248, 248, 248);
+    padding: 50px;
+}
+.buttonMargin{
+    margin: 50px 0;
+}
+.learnButton{
+    padding: 1rem 1rem;
+    background-color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.learnButton:hover{
+    padding: 1rem 2rem;
+    background-color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.learnButton:focus{
+    padding: 0.9rem;
+    background-color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: .9rem;
+}
+.black:hover{
+    color: black;
+}
+.black:focus{
+    color: black;
+}
+
+.file-area {
+    width: 100%;
+    position: relative;
+  }
+  .file-area input[type=file] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .file-area .file-dummy {
+    width: 100%;
+    padding: 30px;
+    background: #FFFFFF;
+    text-align: center;
+    transition: background 0.3s ease-in-out;
+  }
+  .file-area .file-dummy .success {
+    display: none;
+  }
+  .file-area:hover .file-dummy {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .file-area input[type=file]:focus + .file-dummy {
+    outline: 2px solid rgba(255, 255, 255, 0.5);
+    outline: -webkit-focus-ring-color auto 5px;
+  }
+  .file-area input[type=file]:valid + .file-dummy {
+    border-color: rgba(0, 255, 0, 0.4);
+    background-color: rgba(0, 255, 0, 0.3);
+  }
+  .file-area input[type=file]:valid + .file-dummy .success {
+    display: inline-block;
+  }
+  .file-area input[type=file]:valid + .file-dummy .default {
+    display: none;
+  }
+  label {
+    font-weight: 500;
+    display: block;
+    margin: 4px 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    overflow: hidden;
+  }
+  label span {
+    float: right;
+    text-transform: none;
+    font-weight: 200;
+    line-height: 1em;
+    font-style: italic;
+    opacity: 0.8;
+  }
+  
+  .form-controll {
+    display: block;
+    padding: 8px 16px;
+    width: 100%;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    font-weight: 200;
+  }
+  .form-controll:focus {
+    outline: 2px solid rgba(255, 255, 255, 0.5);
+    outline: -webkit-focus-ring-color auto 5px;
+  }
+  
+  button {
+    padding: 8px 30px;
+    background: yellowgreen;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11px;
+    border: 0;
+    cursor: pointer;
+  }
+  
+.form-group {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.input_col{
+    margin-bottom: 5vh;
+}
+input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    color: gray;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    
+  }
+::placeholder {
+    color: gray;
+    font-weight: 300;
+    font-size: 1.2;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+
+/* Master */
+.masthead{
+    /* background-image: url("../images/Home/mastheadImage.jpg"); */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+    padding: 20vh 15vw;
+    color: white;
+}
+.boldText{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.mastheadInfo{
+    margin-top: 80px;
+}
+#office{
+    min-height: 100vh;
+}
+/* Footer */
+footer{
+    text-align: center;
+    background-color: rgb(32, 32, 37);
+    color: rgb(150, 150, 150);
+    padding: 5vh 0vw;
+}
+
+
+/* small screens */
+@media only screen and (max-width: 600px){
+    /* navbar */
+    .navbar-brand{
+        width: 15vw;
+    }
+}
