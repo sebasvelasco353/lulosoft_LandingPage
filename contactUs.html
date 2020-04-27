@@ -81,38 +81,70 @@
     <div id="office">
         <div class="container">
             <div class="row margin">
-                <p class="title black boldText">We cant be better located<span class="green">.</span></p>
+                <p class="title black boldText">We have great locations<span class="green">.</span></p>
             </div>
-            <div class="row margin">
+            <div class="row margin officeContent">
                 <div class="col-sm">
-                    <div class="row">
-                        <div class="col">imagen</div>
+                    <div class="row item">
+                        <div class="col image">
+                            <img src="./assets/images/Contact us/photo_alexander_perea_96px.png" class="rounded-circle"
+                                alt="Alexander Perea">
+                        </div>
                         <div class="col">
-                            <div class="row">nombbre</div>
-                            <div class="row">pais</div>
-                            <div class="row">telefono</div>
+                            <div class="row">
+                                <p class="boldText">Alexander Perea.</p>
+                            </div>
+                            <div class="row">
+                                Cali, Colombia.
+                            </div>
+                            <div class="row green">(+57)3248120</div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">imagen</div>
+                    <div class="row item">
+                        <div class="col image">
+                            <img src="./assets/images/Contact us/photo_laura_perea_96px.png" class="rounded-circle"
+                                alt="Laura Perea">
+                        </div>
                         <div class="col">
-                            <div class="row">nombbre</div>
-                            <div class="row">pais</div>
-                            <div class="row">telefono</div>
+                            <div class="row">
+                                <p class="boldText">Laura Perea.</p>
+                            </div>
+                            <div class="row">Atlanta, GA</div>
+                            <div class="row green">(786)3553310</div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">imagen</div>
+                    <div class="row item">
+                        <div class="col image">
+                            <img src="./assets/images/Contact us/photo_juan_espinosa_96px.png" class="rounded-circle"
+                                alt="Juan espinosa">
+                        </div>
                         <div class="col">
-                            <div class="row">nombbre</div>
-                            <div class="row">pais</div>
-                            <div class="row">telefono</div>
+                            <div class="row">
+                                <p class="boldText">Juan Espinosa</p>
+                            </div>
+                            <div class=" row">Louisville, KY</div>
+                            <div class="row green">(954)2541148</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm">
                     <form action method="post">
-                        <div class="row">
+                        <div class="row form-group">
+                            <div class="input_col col-sm">
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>select a team member.</option>
+                                    <option>Alexander Perea</option>
+                                    <option>Laura Perea</option>
+                                    <option>Juan Espinosa</option>
+                                </select>
+                            </div>
+                            <div class="input_col col-sm">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Subject">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row form-group">
                             <div class="input_col col-sm">
                                 <input type="text" placeholder="Name">
                             </div>
@@ -120,7 +152,7 @@
                                 <input type="text" placeholder="Last Name">
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row form-group">
                             <div class="input_col col-sm">
                                 <input type="text" placeholder="Email">
                             </div>
@@ -128,23 +160,23 @@
                                 <input type="text" placeholder="Phone Number">
                             </div>
                         </div>
-                        <div class="form-group file-area">
-                            <input type="file" name="CV" id="CV" required="required" multiple="multiple" />
-                            <div class="file-dummy">
-                                <div class="success">file selected</div>
-                                <div class="default">
-                                    <p class="boldText">Upload your resume.</p>
-                                    <p>Drop file or <span class="green">click here</span> to upload.</p>
-                                </div>
+                        <div class="form-group">
+                            <div class="col">
+                                <textarea class="form-control" id="contactFormMessage" rows="3"></textarea>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <button type="submit">Upload images</button>
+                        <div class="form-group sendBtn">
+                            <div class="col">
+                                <button type="submit">Send it</button>
+                            </div>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
+    </div>
+    <div id="mapSection">
+
     </div>
     <!-- footer -->
     <footer>

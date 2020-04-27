@@ -226,7 +226,6 @@ a:focus{
 .form-group {
     max-width: 500px;
     margin: auto;
-    margin-bottom: 30px;
 }
 .input_col{
     margin-bottom: 5vh;
@@ -238,7 +237,6 @@ input{
     border: none;
     color: gray;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    
   }
 ::placeholder {
     color: gray;
@@ -248,9 +246,17 @@ input{
 textarea:focus, input:focus{
     outline: none;
 }
-
-
-
+.form-control{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    color: gray;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
 /* Master */
 .masthead{
     /* background-image: url("../images/Home/mastheadImage.jpg"); */
@@ -270,9 +276,36 @@ textarea:focus, input:focus{
 }
 .mastheadInfo{
     margin-top: 80px;
+    color: rgb(218, 218, 218);
 }
 #office{
+    padding: 20vh 15vw;
     min-height: 100vh;
+}
+.officeContent{
+    margin-top: 80px;
+}
+.officeContent .image{
+    max-width: 25%;
+}
+.item{
+    margin-bottom: 50px;
+}
+.sendBtn{
+    margin-top: 15px;
+}
+.row .boldText{
+    margin-top: 0;
+}
+#mapSection{
+    padding: 20vh 15vw;
+    min-height: 100vh;
+    background-image: url("../images");
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
 /* Footer */
 footer{
@@ -288,5 +321,8 @@ footer{
     /* navbar */
     .navbar-brand{
         width: 15vw;
+    }
+    .officeContent .image{
+     max-width: 100%;   
     }
 }
